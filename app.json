@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "craccofinances",
+    "slug": "craccofinances",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "craccofinances"
+}
