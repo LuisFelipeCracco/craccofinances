@@ -1,6 +1,8 @@
-import React from "react";
-import {} from "react-native";
+import styled from 'styled-components/native';
 
-export function styles(){
-    return 
-}
+export const Container = styled.View`
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    background-color:#999;
+`;
