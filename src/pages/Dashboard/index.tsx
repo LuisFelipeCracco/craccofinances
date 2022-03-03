@@ -1,5 +1,6 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { MaterialIcons, Feather, } from '@expo/vector-icons';
+
 import { 
     Container,
     Header,
@@ -8,8 +9,11 @@ import {
     User,
     UserGreeting,
     UserName,
-    UserWrapper
+    UserWrapper,
+    Icon, 
+    HighlightCards,
 } from './styles';
+import { HighlightCard } from "../../components/HighlightCard";
 
 
 
@@ -26,8 +30,17 @@ export function Dashboard(){
                                 <UserName>Luis Felipe</UserName>
                             </User>
                         </UserInfo>
+                        <Icon name="power"/>
                     </UserWrapper>
                 </Header>
+                <HighlightCards
+                 
+                
+                >
+                    <HighlightCard />
+                    <HighlightCard />
+                    <HighlightCard />
+                </HighlightCards>
             </Container>
         </>
     )
