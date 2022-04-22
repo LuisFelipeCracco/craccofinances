@@ -4,7 +4,7 @@ import { Feather } from '@expo/vector-icons';
 
 
 export const Container = styled.View`
-    background-color: ${({ theme }) => theme.colors.attention};
+    background-color: ${({ theme }) => theme.colors.shape};
 
     width: ${RFValue(300)}px;
     border-radius: 5px;
@@ -13,7 +13,7 @@ export const Container = styled.View`
     padding-bottom: ${RFValue(42)}px;
 
     margin-right: 16px;
-    height: 300px;
+    height: 200px;
 `;
 export const Header = styled.View`
     flex-direction: row;
@@ -22,11 +22,11 @@ export const Header = styled.View`
 `;
 export const Title = styled.Text`
     font-family: ${({ theme }) => theme.fonts.regular};
-    font-size: ${RFValue(14)};
+    font-size: ${RFValue(14)}px;
     color: ${({ theme }) => theme.colors.text_dark};
 `;
 export const Icon = styled(Feather)`
-    font-size: ${RFValue(40)};
+    font-size: ${RFValue(40)}px;
 `;
 export const Footer = styled.View`
     
@@ -40,6 +40,6 @@ export const Amount = styled.Text`
 `;
 export const LastTransaction = styled.Text`
     font-family: ${({ theme }) => theme.fonts.regular};
-    font-size: ${RFValue(12)};
+    font-size: ${RFValue(12)}px;
     color: ${({ theme }) => theme.colors.text};
 `;
